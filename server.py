@@ -1,7 +1,12 @@
+#Lien vers le repository github : 
+
 import sys
 import socket
 import threading
 from PyQt6.QtWidgets import QApplication, QMainWindow, QVBoxLayout, QPushButton, QTextEdit, QWidget, QLineEdit, QLabel
+
+"""Je n'ai pas mis les valeurs pour le socket, l'address et le port du serveur ici mais dans les fonctions
+ car je l'ai fait dans la SAE et que pour aller plus vite j'ai repris ce code là et l'ai modifié"""
 
 class ServerGraphique(QMainWindow):
     def __init__(self):
@@ -115,3 +120,6 @@ if __name__ == '__main__':
     server_gui = ServerGraphique()
     server_gui.show()
     sys.exit(app.exec())
+
+
+
